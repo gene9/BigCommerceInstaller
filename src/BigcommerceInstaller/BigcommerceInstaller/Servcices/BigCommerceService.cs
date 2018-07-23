@@ -59,7 +59,7 @@ namespace BigcommerceInstaller.Servcices
         {
             string url = $"https://api.bigcommerce.com/stores/{authResponse.GetStoreHash()}/v3/content/scripts";
 
-            var html = $@"<script src=\""{_chatigyConfig.Src}\""></script>";
+            var html = $@"<script src=""{_chatigyConfig.Src}"" X-Client-Id=""your_client_id"" X-Token=""your_token""></script>";
 
             var jsonString = JsonConvert.SerializeObject(new
             {

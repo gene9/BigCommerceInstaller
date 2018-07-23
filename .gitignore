@@ -3,3 +3,4 @@ src/BigcommerceInstaller/BigcommerceInstaller/bin/
 src/BigcommerceInstaller/BigcommerceInstaller/obj/
 src/BigcommerceInstaller/BigcommerceInstaller/BigcommerceInstaller.csproj.user
 src/BigcommerceInstaller/BigcommerceInstaller/Logs/
+src/_debug/
